@@ -17,6 +17,7 @@ public:
          return 0;
      }
 
+     
      if (!root->left and !root->right)
      {
          return root->val;

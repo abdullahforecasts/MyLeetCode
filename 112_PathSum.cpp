@@ -22,6 +22,7 @@ public:
          return true;
      }
 
+     
      if (root->left)
      {
          if (hasPathSum(root->left, targetSum-root->val))

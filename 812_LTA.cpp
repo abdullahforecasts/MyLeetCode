@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     double largestTriangleArea(vector<vector<int>>& points) {
         double maxArea = 0.0;
 
